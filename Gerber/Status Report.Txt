@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [XUF208_Clock.PrjPcb]
+   Generated File[XUF208_Clock.TXT]
+   Generated File[XUF208_Clock.LDP]
+   Generated File[XUF208_Clock.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 17:35:31 On 2020/4/24
