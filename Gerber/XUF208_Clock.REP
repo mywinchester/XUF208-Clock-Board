@@ -2,38 +2,42 @@
 FileName = XUF208_Clock.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Paste
-      File : XUF208_Clock.GBP
+Generating : Top Layer
+      File : XUF208_Clock.GTL
 
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
+    Adding Layer      : Top Layer
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : XUF208_Clock.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D17
+    D18
+    D19
+    D29
+    D30
     D31
+    D32
+    D33
+    D34
 *************************************************************
 
 *************************************************************
-Generating : Keep-Out Layer
-      File : XUF208_Clock.GKO
+Generating : Drill Drawing
+      File : XUF208_Clock.GD1
 
-    Adding Layer      : Keep-Out Layer
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
 
 
 Used DCodes :
+    D36
+    D37
 *************************************************************
 
 *************************************************************
@@ -55,6 +59,61 @@ Used DCodes :
     D17
     D18
     D19
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : XUF208_Clock.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : XUF208_Clock.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D32
+    D33
+    D34
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : XUF208_Clock.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : XUF208_Clock.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D27
+    D28
 *************************************************************
 
 *************************************************************
@@ -81,34 +140,14 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : XUF208_Clock.GBL
+Generating : Mechanical 1
+      File : XUF208_Clock.GM1
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D32
-    D33
-    D34
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : XUF208_Clock.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D27
-    D28
+    D35
 *************************************************************
 
 *************************************************************
@@ -125,52 +164,13 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : XUF208_Clock.GM1
+Generating : Bottom Overlay
+      File : XUF208_Clock.GBO
 
-    Adding Layer      : Mechanical 1
-
-
-Used DCodes :
-    D35
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : XUF208_Clock.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
-    D36
-    D37
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : XUF208_Clock.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D12
-    D13
-    D14
-    D15
-    D17
-    D18
-    D19
-    D29
-    D30
     D31
-    D32
-    D33
-    D34
 *************************************************************
 
