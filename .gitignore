@@ -3,6 +3,9 @@
 # Don't ignore .gitignore file
 !.gitignore
 
+# Don't ignore README.md
+!README.md
+
 # Don't ignore Assets file
 !Assets/
 
