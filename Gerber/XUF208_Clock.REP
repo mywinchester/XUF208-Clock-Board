@@ -2,13 +2,19 @@
 FileName = XUF208_Clock.GBR
 AutoAperture = True
 *************************************************************
-Generating : Keep-Out Layer
-      File : XUF208_Clock.GKO
+Generating : Bottom Solder
+      File : XUF208_Clock.GBS
 
-    Adding Layer      : Keep-Out Layer
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D32
+    D33
 *************************************************************
 
 *************************************************************
@@ -23,31 +29,6 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : XUF208_Clock.GBO
-
-    Adding Layer      : Bottom Overlay
-
-
-Used DCodes :
-    D12
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : XUF208_Clock.GD1
-
-    Adding Drill Pair : Top Layer-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D41
-    D42
 *************************************************************
 
 *************************************************************
@@ -76,22 +57,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : XUF208_Clock.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D32
-    D33
-*************************************************************
-
-*************************************************************
 Generating : Top Overlay
       File : XUF208_Clock.GTO
 
@@ -106,19 +71,28 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Layer
-      File : XUF208_Clock.GBL
+Generating : Mechanical 1
+      File : XUF208_Clock.GM1
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Mechanical 1
 
 
 Used DCodes :
-    D13
-    D37
-    D38
-    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : XUF208_Clock.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D41
+    D42
 *************************************************************
 
 *************************************************************
@@ -145,14 +119,24 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Mechanical 1
-      File : XUF208_Clock.GM1
+Generating : Keep-Out Layer
+      File : XUF208_Clock.GKO
 
-    Adding Layer      : Mechanical 1
+    Adding Layer      : Keep-Out Layer
 
 
 Used DCodes :
-    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : XUF208_Clock.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D13
 *************************************************************
 
 *************************************************************
@@ -165,17 +149,34 @@ Generating : Top Layer
 
 
 Used DCodes :
-    D13
+    D11
     D14
     D15
     D16
     D17
     D18
-    D20
+    D19
     D21
     D22
     D34
     D35
+    D36
+    D37
+    D38
+    D39
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : XUF208_Clock.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
     D36
     D37
     D38
